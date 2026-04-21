@@ -6,3 +6,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip && pip install jupyterlab
+RUN pip install jellyfish sentence-transformers scikit-learn
