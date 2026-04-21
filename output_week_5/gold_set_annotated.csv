@@ -1,0 +1,151 @@
+mention_id,doc_id,entity_text,entity_norm,entity_type,source,specialty,manual_canonical
+0,2050,fractures,fractures,Disease,scispacy,orthopedic,fracture
+1,4155,injury and illness,injury and illness,Disease,scispacy,consult - history and phy.,injury and illness
+2,4782,non-small cell lung cancer,non-small cell lung cancer,Disease,scispacy,cardiovascular / pulmonary,non-small cell lung cancer
+3,3811,cramping,cramping,Disease,scispacy,emergency room reports,cramp
+4,2328,"nausea,",nausea,Disease,scispacy,orthopedic,nausea
+5,3285,edema,edema,Disease,scispacy,general medicine,edema
+6,4359,mood swings,mood swings,Disease,scispacy,consult - history and phy.,mood swing
+7,1269,shortness of breath,shortness of breath,Disease,scispacy,soap / chart / progress notes,dyspnea
+8,3591,polyps,polyps,Disease,scispacy,gastroenterology,polyp
+9,3326,redness,redness,Disease,scispacy,general medicine,redness
+10,1526,fatigue,fatigue,Disease,scispacy,radiology,fatigue
+11,3979,throat,throat,Disease,scispacy,dentistry,SKIP
+12,4126,tinnitus,tinnitus,Disease,scispacy,consult - history and phy.,tinnitus
+13,3348,congestion,congestion,Disease,scispacy,general medicine,congestion
+14,1007,palate,palate,Disease,scispacy,surgery,SKIP
+15,815,malnutrition,malnutrition,Disease,scispacy,surgery,malnutrition
+16,4678,pleural effusion,pleural effusion,Disease,scispacy,cardiovascular / pulmonary,pleural effusion
+17,3963,erythema nodosum,erythema nodosum,Disease,scispacy,dermatology,erythema nodosum
+18,1812,pain,pain,Disease,scispacy,podiatry,pain
+19,2557,rupture,rupture,Disease,scispacy,obstetrics / gynecology,rupture
+20,48,edema,edema,Disease,scispacy,urology,edema
+21,826,occult barrett,occult barrett,Disease,scispacy,surgery,occult barrett
+22,4369,fracture,fracture,Disease,scispacy,consult - history and phy.,fracture
+23,4521,dermatosis,dermatosis,Disease,scispacy,consult - history and phy.,dermatosis
+24,529,left ventricular dysfunction,left ventricular dysfunction,Disease,scispacy,surgery,left ventricular dysfunction
+25,4306,insomnia,insomnia,Disease,scispacy,consult - history and phy.,insomnia
+26,2173,thoracolumbar subluxation,thoracolumbar subluxation,Disease,scispacy,orthopedic,thoracolumbar subluxation
+27,2066,tenderness,tenderness,Disease,scispacy,orthopedic,tenderness
+28,4222,lung cancer,lung cancer,Disease,scispacy,consult - history and phy.,lung cancer
+29,4477,thrush,thrush,Disease,scispacy,consult - history and phy.,thrush
+30,1767,delirium,delirium,Disease,scispacy,psychiatry / psychology,delirium
+31,2943,snoring,snoring,Disease,scispacy,neurology,snoring
+32,175,sphincter deficiency,sphincter deficiency,Disease,scispacy,urology,sphincter deficiency
+33,825,bleeding,bleeding,Disease,scispacy,surgery,bleeding
+34,3809,hyperkalemia,hyperkalemia,Disease,scispacy,emergency room reports,hyperkalemia
+35,3552,reflux symptoms,reflux symptoms,Disease,scispacy,gastroenterology,reflux symptoms
+36,451,"ptosis, loss of vision",ptosis loss of vision,Disease,scispacy,surgery,vision loss
+37,3443,proctitis,proctitis,Disease,scispacy,gastroenterology,proctitis
+38,3963,skin rash,skin rash,Disease,scispacy,dermatology,skin rash
+39,3858,right knee pain,right knee pain,Disease,scispacy,discharge summary,right knee pain
+40,1578,psoriasis,psoriasis,Disease,scispacy,radiology,psoriasis
+41,4547,herniation,herniation,Disease,scispacy,chiropractic,herniation
+42,2895,mitral valve with regurgitation,mitral valve with regurgitation,Disease,scispacy,neurology,mitral valve with regurgitation
+43,4170,perineum,perineum,Disease,scispacy,consult - history and phy.,SKIP
+44,3307,oropharyngeal lesions,oropharyngeal lesions,Disease,scispacy,general medicine,oropharyngeal lesions
+45,1136,bipolar,bipolar,Disease,scispacy,surgery,bipolar
+46,3477,hydronephrosis,hydronephrosis,Disease,scispacy,gastroenterology,hydronephrosis
+47,3387,"time.,3",time3,Disease,scispacy,general medicine,SKIP
+48,1968,shortness of breath,shortness of breath,Disease,scispacy,pain management,dyspnea
+49,3834,orthostatic hypotension,orthostatic hypotension,Disease,scispacy,discharge summary,orthostatic hypotension
+50,1898,nasal congestion,nasal congestion,Disease,scispacy,pediatrics - neonatal,nasal congestion
+51,3399,asthma,asthma,Disease,scispacy,general medicine,asthma
+52,2557,oligohydramnios,oligohydramnios,Disease,scispacy,obstetrics / gynecology,oligohydramnios
+53,1110,tumor,tumor,Disease,scispacy,surgery,tumor
+54,377,renal problems,renal problems,Disease,scispacy,surgery,kidney disease
+55,2836,obesity,obesity,Disease,scispacy,neurology,obesity
+56,2916,normocephalic,normocephalic,Disease,scispacy,neurology,normocephalic
+57,848,gerd,gerd,Disease,abbrev_dict,surgery,gastroesophageal reflux disease
+58,2765,convulsive seizure,convulsive seizure,Disease,scispacy,neurology,seizure
+59,2573,abnormal vaginal bleeding,abnormal vaginal bleeding,Disease,scispacy,obstetrics / gynecology,vaginal bleeding
+60,4478,pain,pain,Disease,scispacy,consult - history and phy.,pain
+61,3478,bleeding,bleeding,Disease,scispacy,gastroenterology,bleeding
+62,4390,pain,pain,Disease,scispacy,consult - history and phy.,pain
+63,854,bleeding,bleeding,Disease,scispacy,surgery,bleeding
+64,1408,pain,pain,Disease,scispacy,soap / chart / progress notes,pain
+65,3576,irritable bowel syndrome,irritable bowel syndrome,Disease,scispacy,gastroenterology,irritable bowel syndrome
+66,1768,fatigue,fatigue,Disease,scispacy,psychiatry / psychology,fatigue
+67,3528,"fashion.,bilateral groin",fashionbilateral groin,Disease,scispacy,gastroenterology,SKIP
+68,4214,urinary tract infection,urinary tract infection,Disease,scispacy,consult - history and phy.,urinary tract infection
+69,3443,nausea,nausea,Disease,scispacy,gastroenterology,nausea
+70,2719,non-epileptic events,non-epileptic events,Disease,scispacy,neurology,non-epileptic events
+71,1483,pericardial effusion,pericardial effusion,Disease,scispacy,radiology,pericardial effusion
+72,4081,itching,itching,Disease,scispacy,consult - history and phy.,itching
+73,3315,chest pain,chest pain,Disease,scispacy,general medicine,chest pain
+74,3096,fever,fever,Disease,scispacy,hematology - oncology,fever
+75,4114,antidepressant,antidepressant,Drug,scispacy,consult - history and phy.,antidepressant
+76,2959,cimetidine,cimetidine,Drug,scispacy,nephrology,cimetidine
+77,4302,globulin,globulin,Drug,scispacy,consult - history and phy.,globulin
+78,3066,lisinopril,lisinopril,Drug,scispacy,hospice - palliative care,lisinopril
+79,872,oxygen,oxygen,Drug,scispacy,surgery,oxygen
+80,2806,amphotericin,amphotericin,Drug,scispacy,neurology,amphotericin
+81,2926,aldosterone,aldosterone,Drug,scispacy,neurology,aldosterone
+82,3123,coumadin,coumadin,Drug,scispacy,hematology - oncology,warfarin
+83,4376,ana,ana,Drug,scispacy,consult - history and phy.,SKIP
+84,1578,pyrimethamine,pyrimethamine,Drug,scispacy,radiology,pyrimethamine
+85,2376,xylocaine,xylocaine,Drug,scispacy,ophthalmology,xylocaine
+86,4853,flecainide,flecainide,Drug,scispacy,cardiovascular / pulmonary,flecainide
+87,4201,folate,folate,Drug,scispacy,consult - history and phy.,folate
+88,2673,bacitracin,bacitracin,Drug,scispacy,neurosurgery,bacitracin
+89,3972,percocet,percocet,Drug,scispacy,dentistry,oxycodone/acetaminophen
+90,204,propofol,propofol,Drug,scispacy,surgery,propofol
+91,4303,tylenol,tylenol,Drug,scispacy,consult - history and phy.,acetaminophen
+92,2295,ropivacaine,ropivacaine,Drug,scispacy,orthopedic,ropivacaine
+93,4397,cocaine,cocaine,Drug,scispacy,consult - history and phy.,cocaine
+94,1886,tylenol,tylenol,Drug,scispacy,pediatrics - neonatal,acetaminophen
+95,1580,dilantin,dilantin,Drug,scispacy,radiology,phenytoin
+96,3858,cpm,cpm,Drug,scispacy,discharge summary,SKIP
+97,612,bronze lesions,bronze lesions,Drug,scispacy,surgery,bronze lesions
+98,3693,p.o,po,Drug,scispacy,ent - otolaryngology,SKIP
+99,1564,labetalol,labetalol,Drug,scispacy,radiology,labetalol
+100,4069,micardis,micardis,Drug,scispacy,consult - history and phy.,telmisartan
+101,4304,lovenox,lovenox,Drug,scispacy,consult - history and phy.,enoxaparin
+102,4410,sugar-free jell-o,sugar-free jell-o,Drug,scispacy,consult - history and phy.,SKIP
+103,2525,augmentin,augmentin,Drug,scispacy,obstetrics / gynecology,amoxicillin/clavulanate
+104,3234,smoke,smoke,Drug,scispacy,general medicine,SKIP
+105,4679,creatinine,creatinine,Drug,scispacy,cardiovascular / pulmonary,creatinine
+106,617,toradol,toradol,Drug,scispacy,surgery,toradol
+107,1409,bumex,bumex,Drug,scispacy,soap / chart / progress notes,bumetanide
+108,1817,bilirubin,bilirubin,Drug,scispacy,podiatry,bilirubin
+109,1459,gu,gu,Drug,scispacy,rheumatology,SKIP
+110,4400,chlordiazepoxide,chlordiazepoxide,Drug,scispacy,consult - history and phy.,chlordiazepoxide
+111,4646,verapamil,verapamil,Drug,scispacy,cardiovascular / pulmonary,verapamil
+112,3484,imuran,imuran,Drug,scispacy,gastroenterology,azathioprine
+113,4321,atrovent,atrovent,Drug,scispacy,consult - history and phy.,ipratropium
+114,1521,iodine,iodine,Drug,scispacy,radiology,iodine
+115,2094,ble,ble,Drug,scispacy,orthopedic,SKIP
+116,1967,preservative-free lidocaine,preservative-free lidocaine,Drug,scispacy,pain management,preservative-free lidocaine
+117,1309,aspirin,aspirin,Drug,scispacy,soap / chart / progress notes,aspirin
+118,1534,40mg/kg/day,40mgkgday,Drug,scispacy,radiology,SKIP
+119,1368,vitamin e,vitamin e,Drug,scispacy,soap / chart / progress notes,vitamin e
+120,1314,nexium,nexium,Drug,scispacy,soap / chart / progress notes,esomeprazole
+121,4054,pulmicort,pulmicort,Drug,scispacy,consult - history and phy.,budesonide
+122,273,calcium,calcium,Drug,scispacy,surgery,calcium
+123,3484,imuran,imuran,Drug,scispacy,gastroenterology,azathioprine
+124,3793,"time.,neurologic",timeneurologic,Drug,scispacy,emergency room reports,SKIP
+125,3168,o2 saturation,o2 saturation,Drug,scispacy,general medicine,SKIP
+126,3618,levaquin,levaquin,Drug,scispacy,gastroenterology,levofloxacin
+127,4336,tylenol,tylenol,Drug,scispacy,consult - history and phy.,acetaminophen
+128,4054,colace,colace,Drug,scispacy,consult - history and phy.,docusate
+129,4233,digoxin,digoxin,Drug,scispacy,consult - history and phy.,digoxin
+130,66,novolin,novolin,Drug,scispacy,urology,insulin isophane
+131,4197,amitriptyline,amitriptyline,Drug,scispacy,consult - history and phy.,amitriptyline
+132,4201,q.d,qd,Drug,scispacy,consult - history and phy.,SKIP
+133,1623,zonegran,zonegran,Drug,scispacy,radiology,zonisamide
+134,1752,cannabis,cannabis,Drug,scispacy,psychiatry / psychology,cannabis
+135,2326,p.o,po,Drug,scispacy,orthopedic,SKIP
+136,1897,oxygen,oxygen,Drug,scispacy,pediatrics - neonatal,oxygen
+137,4919,nitroglycerin,nitroglycerin,Drug,scispacy,cardiovascular / pulmonary,nitroglycerin
+138,2828,alprazolam,alprazolam,Drug,scispacy,neurology,alprazolam
+139,4376,b12,b12,Drug,scispacy,consult - history and phy.,b12
+140,4640,cardizem,cardizem,Drug,scispacy,cardiovascular / pulmonary,diltiazem
+141,3820,alcohol,alcohol,Drug,scispacy,emergency room reports,alcohol
+142,4844,furosemide,furosemide,Drug,scispacy,cardiovascular / pulmonary,furosemide
+143,4542,"parenting.,plan",parentingplan,Drug,scispacy,consult - history and phy.,SKIP
+144,1951,steroid,steroid,Drug,scispacy,pain management,steroid
+145,2604,tampons,tampons,Drug,scispacy,obstetrics / gynecology,SKIP
+146,3522,fentanyl,fentanyl,Drug,scispacy,gastroenterology,fentanyl
+147,3350,silver,silver,Drug,scispacy,general medicine,silver
+148,3192,maxzide,maxzide,Drug,scispacy,general medicine,triamterene/hydrochlorothiazide
+149,2298,tricalcium phosphate,tricalcium phosphate,Drug,scispacy,orthopedic,tricalcium phosphate
