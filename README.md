@@ -41,7 +41,7 @@ capstoneproject/
 
 ---
 
-## Cài đặt môi trường
+## Cài đặt môi trường local
 
 ### 1. Python dependencies
 
@@ -69,6 +69,39 @@ cp .env.example .env
 **Bắt buộc bật 2 plugin trong Neo4j:**
 - APOC (Advanced Procedures)
 - Graph Data Science (GDS)
+
+---
+
+## Cài đặt môi trường (Devcontainer - Khuyên dùng)
+
+Project này đã được cấu hình sẵn **Docker Compose & VS Code Devcontainer**. Thay vì phải cài đặt thủ công Python, JupyterLab và Neo4j, bạn có thể khởi động toàn bộ hệ thống chỉ với 1 cú click chuột.
+
+### 1. Yêu cầu hệ thống
+- Cài đặt [Docker Desktop](https://www.docker.com/products/docker-desktop/) và đảm bảo Docker đang chạy.
+- Cài đặt [Visual Studio Code](https://code.visualstudio.com/).
+- Cài đặt extension **Dev Containers** của Microsoft trong VS Code.
+
+### 2. Khởi động môi trường
+1. Mở thư mục `capstoneproject` bằng VS Code.
+2. Nhấn `Ctrl + Shift + P` (hoặc `Cmd + Shift + P` trên Mac), gõ và chọn:
+   **`Dev Containers: Rebuild and Reopen in Container`**
+3. *Lưu ý: Lần chạy đầu tiên sẽ mất khoảng 5-10 phút để Docker tải image Python, Neo4j, tự động cài đặt các plugin (APOC, GDS) và tải mô hình NLP scispaCy. Các lần sau sẽ khởi động ngay lập tức.*
+
+### 3. Truy cập các dịch vụ (Đã tự động forward port)
+Sau khi Devcontainer khởi động xong, các dịch vụ sẽ chạy ngầm:
+
+- **JupyterLab:** `http://localhost:8888` (Không cần token/password)
+- **Neo4j Browser:** `http://localhost:7474`
+  - URL kết nối: `neo4j://localhost:7687` (hoặc `bolt://neo4j:7687` nếu kết nối từ code Python bên trong container).
+  - Username mặc định: `neo4j`
+  - Password mặc định: `capstone123` (được cấu hình trong `.devcontainer/docker-compose.yml`).
+
+### 4. Cấu hình biến môi trường
+File `.env` không còn bắt buộc do mọi thứ đã cấu hình cứng trong docker-compose. Tuy nhiên, hãy đảm bảo `src/config.py` của bạn trỏ đúng vào mạng nội bộ của Docker:
+```python
+NEO4J_URI = "bolt://neo4j:7687"
+NEO4J_USER = "neo4j"
+NEO4J_PASSWORD = "capstone123"
 
 ---
 
