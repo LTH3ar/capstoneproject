@@ -8,16 +8,13 @@
 
 ```text
 capstoneproject/
-├── data/
-│   ├── drugs-side-effects-and-medical-condition/
-│   │   └── drugs_side_effects_drugs_com.csv        # Bộ 1
-│   ├── disease-symptom-description-dataset/
-│   │   ├── dataset.csv                             # Bộ 2 (chính)
-│   │   ├── Symptom-severity.csv
-│   │   ├── symptom_Description.csv
-│   │   └── symptom_precaution.csv
-│   └── medical_transcriptions/
-│       └── mtsamples.csv                           # Bộ 3
+├── .devcontainer/
+│   ├── devcontainer.json         # Cấu hình môi trường VS Code
+│   ├── docker-compose.yaml       # Cấu hình container Python & Neo4j
+│   └── Dockerfile                # Build image Python & Jupyter
+├── drugs-side-effects-and-medical-condition/ # Bộ 1 (Dữ liệu có cấu trúc)
+├── disease-symptom-description-dataset/      # Bộ 2 (Dữ liệu có cấu trúc)
+├── medical_transcriptions/                   # Bộ 3 (Dữ liệu phi cấu trúc)
 ├── src/
 │   ├── config.py                 # Cấu hình đường dẫn, Neo4j, hằng số
 │   ├── utils.py                  # Hàm tiện ích (normalize, Neo4j helpers)
@@ -31,11 +28,10 @@ capstoneproject/
 │   ├── eda_bo1.py                # [Tuần 1] EDA Bộ 1
 │   ├── eda_bo2.py                # [Tuần 1] EDA Bộ 2
 │   └── eda_bo3.py                # [Tuần 1] EDA Bộ 3
-├── output/                       # File trung gian (parquet, CSV, gold_set_annotated)
-├── output_week_5/                # Kết quả Entity Resolution (er_mapping.csv)
-├── docs/                         # Tài liệu ontology, báo cáo
+├── output_week_5/                # Thư mục chứa kết quả ER Tuần 5 (er_mapping.csv)
 ├── .env.example                  # Template cấu hình Neo4j
-├── requirements.txt
+├── .gitignore                    # Cấu hình git
+├── requirements.txt              # Danh sách thư viện Python
 └── README.md
 ```
 
