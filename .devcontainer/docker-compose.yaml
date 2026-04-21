@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # Your Python & Jupyter environment
+  workspace:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # Maps your project folder into the container
+      - ..:/workspace:cached
+    # Keeps the container running
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    ports:
+      - "8888:8888"
+
+  # Your Neo4j Database
+  neo4j:
+    image: neo4j:5
+    restart: unless-stopped
+    ports:
+      - "7474:7474" # Neo4j Browser
+      - "7687:7687" # Bolt connection
+    environment:
+      # Set your password here
+      - NEO4J_AUTH=neo4j/capstone123
+      # Automatically installs APOC and GDS!
+      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
+    volumes:
+      # Persists your database data locally so it survives restarts
+      - neo4j_data:/data
+
+volumes:
+  neo4j_data:
