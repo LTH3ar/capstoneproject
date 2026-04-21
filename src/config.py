@@ -32,9 +32,9 @@ GOLD_SET_CSV       = OUTPUT_DIR / "gold_set_template.csv"
 ER_MAPPING_CSV     = OUTPUT_DIR / "er_mapping.csv"
 
 # ── Kết nối Neo4j ─────────────────────────────────────────────────────────────
-NEO4J_URI      = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+NEO4J_URI      = os.getenv("NEO4J_URI", "bolt://neo4j:7687")
 NEO4J_USER     = os.getenv("NEO4J_USER", "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "capstone123")
 
 # ── Hằng số xử lý ────────────────────────────────────────────────────────────
 BATCH_SIZE = 500          # Số dòng mỗi batch khi ingest vào Neo4j
